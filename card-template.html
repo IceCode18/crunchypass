@@ -1,0 +1,7 @@
+<article id="<?= $id ?>" class="card<?php if($claimed){ echo ' claimed';} ?>">
+    <div class="card-content">
+        <p class="category <?= ($randomized) ? 'category__01' : 'category__02'; ?>" > <?= ($randomized) ? 'Randomized Code' : 'Custom Challenge'; ?></p>
+        <h2 class="card-title"><?= $coupon['owner']['S'] ?></h2>
+        <span><?= ($claimed) ? 'Claimed by: '.$coupon['claimer']['S'] : ''; ?></span>
+    </div>
+</article>

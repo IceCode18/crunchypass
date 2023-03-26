@@ -1,0 +1,17 @@
+<div class="comment-section">
+    <div class="user-section">
+        <div class="user-image">
+            <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-user fa-stack-1x fa-inverse"></i>
+            </span>
+        </div>
+        <span class="user-name"><?= stripslashes($comment['user']['S']) ?></span>
+    </div>
+    <div class="comment-area">
+        <p class="comment"><?= stripslashes($comment['u_comment']['S']) ?></p>
+    </div>
+    <div class="timestamp-area">
+        <span><?= $comment['date']['S'] ?></span>
+    </div>
+</div>
