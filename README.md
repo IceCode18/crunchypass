@@ -1,5 +1,5 @@
 # Crunchypass: Crunchyroll Guest Pass Sharing Website
-This is a simple website that allows Crunchyroll Premium users to share their guest passes with other users. The website is built using HTML, CSS, JavaScript, PHP, and AWS services such as EC2 and DynamoDB.
+This is a simple responsive website that allows Crunchyroll Premium users to share their guest passes with other users. The website is built using HTML, CSS, JavaScript, PHP, and AWS services such as EC2 and DynamoDB.
 
 <h3>The problem it solved: </h3>
 
@@ -10,3 +10,10 @@ Crunchyroll, an anime streaming website, used to have a feature called "Guest Pa
 * Premium users can post their guest pass codes on the website by entering their code and an optional custom challenge
 * Non-premium users can browse the available guest pass codes and attempt to solve the challenges to access them
 * Upon solving a challenge, the user will gain access to the guest pass code and can redeem it on Crunchyroll
+
+<h3>Mobile UI</h3>
+
+![CP 1](https://user-images.githubusercontent.com/112799550/227789918-05a2ebb5-4c76-4c4e-8235-77f58c57c060.png)
+![CP 2](https://user-images.githubusercontent.com/112799550/227789919-9f230505-ead7-41d1-a14c-d28d7419d0bb.png)
+![CP 3](https://user-images.githubusercontent.com/112799550/227789920-fb238a2a-6c23-4055-8b52-37cc0d9d42ae.png)
+![CP 4](https://user-images.githubusercontent.com/112799550/227789917-4c0d117d-865c-4219-9e3e-c89900d11706.png)
